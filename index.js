@@ -1,6 +1,12 @@
 'use strict'
 
 /*!
+ * imports.
+ */
+
+if (!Function.prototype.bind) Function.bind = require('fast-bind')
+
+/*!
  * exports.
  */
 
@@ -21,9 +27,11 @@ module.exports = curry2
 
 function curry2 (fn, self) {
   var out = function () {
+    if (arguments.length === 0) return out
+
     return arguments.length > 1
-    ? fn.call(self, arguments[0], arguments[1])
-    : fn.bind(self, arguments[0])
+      ? fn.apply(self, arguments)
+      : fn.bind(self, arguments[0])
   }
 
   out.uncurry = function uncurry () {
