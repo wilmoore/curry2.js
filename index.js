@@ -4,7 +4,7 @@
  * imports.
  */
 
-if (!Function.prototype.bind) Function.bind = require('fast-bind')
+var bind = Function.prototype.bind || require('fast-bind')
 
 /*!
  * exports.
@@ -31,7 +31,7 @@ function curry2 (fn, self) {
 
     return arguments.length > 1
       ? fn.apply(self, arguments)
-      : fn.bind(self, arguments[0])
+      : bind.call(fn, self, arguments[0])
   }
 
   out.uncurry = function uncurry () {

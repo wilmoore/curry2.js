@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 1.0.1 - 2016-02-03
+### Fixed
+- Fixed bind polyfill based on comment by @adriengibrat
+
 ## 1.0.0 - 2016-01-21
 ### Added
 - Add `Function.prototype.bind` polyfill.
