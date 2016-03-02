@@ -20,7 +20,20 @@
     "tape-catch": "^1.0.4"
   },
   "homepage": "https://github.com/wilmoore/curry2.js",
-  "keywords": [],
+  "keywords": [
+    "application",
+    "arguments",
+    "auto curry",
+    "auto-curry",
+    "binary",
+    "binary function",
+    "binary functions",
+    "curry",
+    "curry2",
+    "full application",
+    "partial application",
+    "uncurry"
+  ],
   "license": "MIT",
   "main": "index.js",
   "preferGlobal": false,
