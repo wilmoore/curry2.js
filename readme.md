@@ -3,6 +3,14 @@
 
 [![Build Status](http://img.shields.io/travis/wilmoore/curry2.js.svg)](https://travis-ci.org/wilmoore/curry2.js) [![Code Climate](https://codeclimate.com/github/wilmoore/curry2.js/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/curry2.js) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
+###### yarn
+
+```shell
+yarn add curry2
+```
+
+###### npm
+
 ```shell
 npm install curry2 --save
 ```

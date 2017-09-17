@@ -10,12 +10,11 @@ When opening an issue for a bug, please include steps for reproducing the proble
 
     git clone https://github.com/wilmoore/curry2.js.git
     cd curry2.js
-    npm install
-    npm run dev
+    yarn && yarn dev
 
 ## Tests
 
-If you are adding a new feature, please include tests. The test suite for this project uses [tape](https://github.com/substack/tape). To run the test suite, type `npm test`. You may also run the development watcher (`npm run dev`) which uses [nodemon](http://nodemon.io) to re-run the test suite when files are modified. You can also get the raw tap output by running `node test`.
+If you are adding a new feature, please include tests. The test suite for this project uses [tape](https://github.com/substack/tape). To run the test suite, type `yarn test`. You may also run the development watcher (`yarn dev`) which uses [nodemon](http://nodemon.io) to re-run the test suite when files are modified. You can also get the raw tap output by running `node test`.
 
 ## Style
 
